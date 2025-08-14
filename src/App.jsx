@@ -71,38 +71,25 @@ function Class12(){
 
       <div className='header-middle'>
         <div className='option'>
-          <ul className='menu'>
-            <li>course
-              <ul className='sub-menu'>
-              <li><p>JEE</p>
-
-                <ul className='sub-neet'>
-              <li><button onClick={Class10} className='sub2buttons'>class 10</button></li>
-              <li><button onClick={Class11} className='sub2buttons'>class 11</button></li>
-              <li><button onClick={Class12} className='sub2buttons'>class 12</button></li>
-              </ul>
-                
-                    </li>
-              <li><p>NEET</p></li>
-              <li><p>CLASS 6-10</p></li>
-                <li><p>View All Option</p></li>
-              </ul>
-            </li>
-          </ul>
-
+          courses
           </div>
 
-          <div className='option'>Test series</div>
-          <div className='option'>Class Room</div>
-          <div className='option'>Results</div>
-          <div className='option'>Study Materials</div>
-          <div className='option'>Scholarship</div>
-          <div className='option'>ALLEN E-store</div>
-          <div className='option'>More</div>
+            <div className='option'>Test series</div>
+            <div className='option'>Class Room</div>
+            <div className='option'>Results</div>
+            <div className='option'>Study Materials</div>
+            <div className='option'>Scholarship</div>
+            <div className='option'>ALLEN E-store</div>
+            <div className='option'>More</div>
           </div>
             <div className='header-right'>
-              <button className='login-button'>Login</button>
+              <div><img className='phone-icon'src='phone.png'></img></div>
+               <div><button className='login-button'>Login</button></div>
             </div>
+      </div>
+      <div className='blue-bar'>
+       <div className="p1-bar">IS YOUR CHILD IN CLASS 5–10?</div> 
+        <div className="p2-bar"> ✨ &nbsp; Give them an early start to success—register for TALLENTEX now!&nbsp;&nbsp;&nbsp;&nbsp;></div>
       </div>
       </>
 )}
