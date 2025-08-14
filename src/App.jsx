@@ -8,11 +8,12 @@ function App() {
 
   return ( <>
   <div>
+
     <BrowserRouter>
 	    <Routes>
         <Route path='/' element={<Navigate to='/neet'/>}/>
         <Route path='/neet' element={<Layouts/>}>
-            <Route index element={<Home/>}/>
+            <Route index element={<Middle/>} />
             <Route path='JEE' element={<JEE/>} />
             <Route path="blogs" element={<Blogs />} />
             <Route path="contact" element={<Contact />} />
@@ -94,32 +95,30 @@ function Class12(){
       </>
 )}
 
-function Home(){
-    return(<>
-  <div className="home-container">
-      <header className="hero">
-        <h1>Welcome to My Website</h1>
-        <p>Your one-stop solution for learning and projects 🚀</p>
-        <button className="cta-btn">Get Started</button>
-      </header>
+      function Middle(){
+        return(
+        <>
+        <div className="middle-main">
+          <div class='div-poster1'>
+            <img className='poster1'src='public/posterr1.png'></img>
+          </div>
+          <div className="types-courses">
+            <span className="p-courses">Pick the right course for you</span>
+            <div className="courses-gird">
+             
+              <div className='neet-course'>
+                <p className="inside-courses"><b>NEET Courses</b></p>
+                </div>
+              <div className="jee-course">jee-mains course</div>  
+              <div className="classes-course">class 6-10</div>
+            
+            </div>
+          </div>
+        </div>
+        </>)
+      }
 
-      <section className="features">
-        <div className="feature-card">
-          <h3>📚 Learn</h3>
-          <p>Access high-quality tutorials and guides to boost your skills.</p>
-        </div>
-        <div className="feature-card">
-          <h3>💻 Build</h3>
-          <p>Work on exciting real-world projects and improve your portfolio.</p>
-        </div>
-        <div className="feature-card">
-          <h3>🤝 Connect</h3>
-          <p>Join our community and connect with like-minded learners.</p>
-        </div>
-      </section>
-    </div>
-      </>)
-}
+
 
 function Footer(){
     return<>
