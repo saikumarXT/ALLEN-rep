@@ -74,20 +74,20 @@ margin-left: 1px;
 
 .header-right{
    
-    width: 280px;
-    margin-left: 10px;
-    padding:10px ;  
-    display: flex;
-    flex-direction: row;
-   
+width: 280px;
+margin-left: 10px;
+padding:10px ;  
+display: flex;
+flex-direction: row;
+
 }
 
 .phone-icon{
 width: 30px;
 margin-left: 125px;
 margin-top: 4px;
-
 }
+
 .login-button{
   background-color:white;
   border-radius: 20px;
@@ -96,19 +96,27 @@ margin-top: 4px;
   border-color:  #2575fc;
   margin-left: 18px;
 }
+
 .blue-bar{
   background-color: hsl(229, 94%, 60%);
   display: flex;
   flex-direction: row;
   height:6vh;
+  width: 100%;
   align-items: center;
+  position: fixed;
+  top: 11%;
+  border: none;
+ 
 }
+
 .p1-bar{
 margin-left:270px ;
 margin-right: 0px;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color: yellow;
 }
+
 .p2-bar{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin-left:8px ;
@@ -117,67 +125,224 @@ color:white;
 
 
   .div-poster1{
-  background-color: rgb(241, 237, 237);
+background-color:#ecf2fa;
   }
+
   .poster1{
   width:1020px;
-  padding:80px;
-  margin-left:50px;
+  padding:60px;
+  margin-left:59px;
+  margin-top: 87px;
+  margin-bottom: 10px;
   }
 
 .types-courses{
 border: #000000 solid 2px;
-height: 60vh;
-width:1100px;
-margin-left: 90px;
+height: 53vh;
+width:auto;
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 45px;
 }
+
 .p-courses{
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 30px;
-color: #000;
+ font-family: sans-serif;
+font-size: 25px;
+color: #312f2f;
 margin-right: 200px;
 width:700px;
+font-weight: bold;
+margin-left: 55px;
+
 }
+
 .courses-gird{
 display:flex;
 flex-direction:row;
-width: 950px;
-border: #2575fc solid 2px;
-margin-left: 60px;
+width:1100px;
+
+margin-left: 35px;
 }
 
 .neet-course{
-width:350px;
+width:440px;
 box-shadow: 1px 1px 1px 1px rgb(233, 233, 240);
-height: 37vh;
+height: 41vh;
 margin: 20px;
 border-radius: 20px;
 border: none;
-background-color: rgb(233, 233, 240)
+background-color:#ebf1fb;
+display:grid;
+color:rgb(32, 31, 31);
+grid-template-columns: 1fr 1fr;
 }
 
 .jee-course{
-width:350px;
+width:440px;
 box-shadow: 1px 1px 1px 1px rgb(233, 233, 240);
-height: 37vh;
+height: 41vh;
 margin: 20px;
 border-radius: 20px;
 border: none;
-background-color: rgb(233, 233, 240)
+background-color:#ebf1fb;
+display:grid;
+color:rgb(32, 31, 31);
+grid-template-columns: 1fr 1fr;
 }
+
 .classes-course{
-width:350px;
+width:440px;
 box-shadow: 1px 1px 1px 1px rgb(233, 233, 240);
-height: 37vh;
+height: 41vh;
 margin: 20px;
 border-radius: 20px;
 border: none;
-background-color: rgb(233, 233, 240)
+background-color:#ebf1fb;
+display:grid;
+color:rgb(32, 31, 31);
+grid-template-columns: 1fr 1fr;
 }
+
 .inside-courses{
   color: #0b0b0b;
   font-size: 20px;
  font-family: 'Inter', sans-serif;
   margin-top: 20px;
   margin-left: 25px;
+}
+
+
+.courses-heading{ 
+font-weight: bold;
+font-size: 20px;
+display: block;
+margin-top: 27px;
+font-family: sans-serif;
+ margin-left: 13px;
+  line-height: 1.5;
+
+}
+.courses-view{
+  font-size: 17px;
+  color:rgb(93, 93, 240);
+  font-family: sans-serif;
+  margin-top: 140px;
+  margin-left: 20px;
+  font-weight: bold;
+
+}
+
+
+.course-image{
+margin-top:79px;
+margin-left:3px;
+background-color:#EDF2FA;
+border: 2px solid#EDF2FA;
+}
+.course-logo{
+width: 150px;
+position: absolute;
+}
+.course-image-classes{
+margin-top:69px;
+margin-left:11px;
+background-color:#EDF2FA;
+border: 2px solid#EDF2FA;
+}
+.trending-classes{
+background-color: #ebf1fb;
+font-family: Arial, Helvetica, sans-serif ;
+font-weight: bold;
+color: #000000;
+font-size: 24px;
+height: 20vh;
+background-color: #f9f7f7;
+}
+.title-button{
+margin-left: 90px;
+background-color: #f9f7f7;
+}
+.para-title{
+padding-top:15px;
+margin-bottom: 15px;
+}
+.buttonclass1{
+width:70px;
+height: 40px;
+border-radius: 15px;
+background-color: white;
+border: solid 1px #100f0f;
+font-family: Arial, Helvetica, sans-serif ;
+font-weight: bold;
+color: #4b4747;
+font-size: 13px;
+margin-right: 10px;
+margin-top: 1px;
+margin-bottom: 10px;
+}
+.buttonclass2{
+width:54px;
+height: 40px;
+border-radius: 15px;
+background-color: white;
+border: solid 1px #100f0f;
+font-family: Arial, Helvetica, sans-serif ;
+font-weight: bold;
+color: #4b4747;
+font-size: 13px;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+.buttonclass3{
+width:100px;
+height: 40px;
+border-radius: 15px;
+background-color: white;
+border: solid 1px #100f0f;
+font-family: Arial, Helvetica, sans-serif ;
+font-weight: bold;
+color: #4b4747;
+font-size: 13px;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+.live-record{
+height: 80vh;
+background-color:#EDF2FA;
+display:flex;
+flex-direction: row;
+}
+
+.card1  {
+height: 50vh;
+width: 330px;
+background-color:white;
+box-shadow: 4px 4px 4px 4px rgb(201, 201, 201);
+margin-left: 20PX;
+border-radius: 15px;
+margin-left: 100px;
+margin-top:60px;
+}
+.card2 {
+height: 50vh;
+width: 330px;
+background-color:white;
+box-shadow: 4px 4px 4px 4px rgb(201, 201, 201);
+margin-left: 20PX;
+border-radius: 15px;
+margin-left: 30px;
+margin-top:60px;
+}
+
+.one{
+color:black;
+}
+.two{
+color:black;
+}
+.three{
+color:black;
+}
+.four{
+color:black;
 }
